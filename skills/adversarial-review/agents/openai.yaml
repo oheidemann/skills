@@ -1,0 +1,5 @@
+interface:
+  display_name: "Adversarial Review"
+  short_description: "Three-pass code review: finder, adversary, referee."
+policy:
+  allow_implicit_invocation: false

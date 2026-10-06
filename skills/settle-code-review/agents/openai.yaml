@@ -1,0 +1,5 @@
+interface:
+  display_name: "Settle Code Review"
+  short_description: "Walk a code review's remaining findings one at a time and build each decision."
+policy:
+  allow_implicit_invocation: false
