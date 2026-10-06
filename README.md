@@ -5,17 +5,17 @@ My personal agent skills, installable with the [Vercel `skills` CLI](https://git
 ## Install
 
 ```bash
-# all skills, globally, for every agent
-npx skills@latest add oheidemann/skills -g
+# all skills, globally, for Claude Code
+npx skills@latest add oheidemann/skills -g -a claude-code
 
 # a single skill
-npx skills@latest add oheidemann/skills -g -s adversarial-review
+npx skills@latest add oheidemann/skills -g -a claude-code -s adversarial-review
 
 # see what's in here without installing
 npx skills@latest add oheidemann/skills -l
 ```
 
-Update later with `npx skills update -g`.
+Drop `-a claude-code` to pick agents interactively, or use `-a '*'` for every agent. Update later with `npx skills update -g`.
 
 ## Skills
 
