@@ -22,4 +22,5 @@ Drop `-a claude-code` to pick agents interactively, or use `-a '*'` for every ag
 | Skill | What it does |
 | --- | --- |
 | [adversarial-review](skills/adversarial-review/SKILL.md) | Three-pass code review (finder, adversary, referee) in isolated subagents. User-invoked. |
+| [park](skills/park/SKILL.md) | File a loose idea into the repo's `parking-lot/`, folding it into a matching concept if one exists. User-invoked. |
 | [settle-code-review](skills/settle-code-review/SKILL.md) | Walk a review's open findings one at a time with the user; a standing implementer builds each decision on a review branch. User-invoked. |

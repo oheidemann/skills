@@ -1,0 +1,5 @@
+interface:
+  display_name: "Park"
+  short_description: "File a loose idea into the repo's parking lot, merging with a matching concept if one exists."
+policy:
+  allow_implicit_invocation: false
