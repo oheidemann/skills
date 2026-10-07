@@ -1,0 +1,5 @@
+interface:
+  display_name: "Settle Architecture Review"
+  short_description: "Walk an architecture review's candidates one at a time and summarise the decisions for /to-tickets."
+policy:
+  allow_implicit_invocation: false
