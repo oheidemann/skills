@@ -16,4 +16,4 @@ This repo is a package of agent skills consumed by the Vercel `skills` CLI (`npx
 
 ## Local development
 
-Installs from GitHub are copies, so edits here don't reach installed agents until pushed and updated (`npx skills update -g`). To test uncommitted changes, install from the working tree: `npx skills@latest add . -g -s <name> -y`.
+Installs from GitHub are copies, so edits here don't reach installed agents until pushed and updated (`npx skills update -g`). To test uncommitted changes, install from the working tree: `npx skills@latest add . -g -a claude-code codex -s <name> -y`.

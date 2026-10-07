@@ -5,17 +5,17 @@ My personal agent skills, installable with the [Vercel `skills` CLI](https://git
 ## Install
 
 ```bash
-# all skills, globally, for Claude Code
-npx skills@latest add oheidemann/skills -g -a claude-code
+# all skills, globally, for Claude Code and Codex
+npx skills@latest add oheidemann/skills -g -a claude-code codex
 
 # a single skill
-npx skills@latest add oheidemann/skills -g -a claude-code -s adversarial-review
+npx skills@latest add oheidemann/skills -g -a claude-code codex -s adversarial-review
 
 # see what's in here without installing
 npx skills@latest add oheidemann/skills -l
 ```
 
-Drop `-a claude-code` to pick agents interactively, or use `-a '*'` for every agent. Update later with `npx skills update -g`.
+Naming both agents puts each skill in `~/.agents/skills/`, which Codex reads, and symlinks it into `~/.claude/skills/`. With `-a claude-code` alone, the CLI copies the skill straight into `~/.claude/skills/` instead. Drop `-a` to pick agents interactively, or use `-a '*'` for every agent. Update later with `npx skills update -g`.
 
 ## Skills
 
