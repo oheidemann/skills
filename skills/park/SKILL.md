@@ -1,7 +1,6 @@
 ---
 name: park
-description: "File a loose idea into the repo's parking lot of things to explore later, not decided or scheduled. Finds a matching concept first; appends to it if found, creates a new file if not."
-disable-model-invocation: true
+description: "Park a loose idea in the repo's `parking-lot/`: things to explore later, not decided or scheduled. Use when the user says \"park this/that\", asks what's in the parking lot, or asks whether an idea has come up before."
 ---
 
 # Park
@@ -15,7 +14,7 @@ but not worth deciding yet.
 
 ## Invocation
 
-The user invokes `/park` and describes what they want in natural language:
+The user asks in natural language, with or without `/park`:
 
 - "Park this: <idea>" — file a new idea, or fold it into an existing one if it matches
 - "What's in the parking lot?" — survey what's there

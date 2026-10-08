@@ -22,6 +22,6 @@ Naming both agents puts each skill in `~/.agents/skills/`, which Codex reads, an
 | Skill | What it does |
 | --- | --- |
 | [adversarial-review](skills/adversarial-review/SKILL.md) | Three-pass code review (finder, adversary, referee) in isolated subagents. User-invoked. |
-| [park](skills/park/SKILL.md) | File a loose idea into the repo's `parking-lot/`, folding it into a matching concept if one exists. User-invoked. |
+| [park](skills/park/SKILL.md) | File a loose idea into the repo's `parking-lot/`, folding it into a matching concept if one exists. |
 | [settle-architecture-review](skills/settle-architecture-review/SKILL.md) | Walk an architecture review's candidates one at a time with the user; summarise the decisions for `/to-tickets`. User-invoked. |
 | [settle-code-review](skills/settle-code-review/SKILL.md) | Walk a review's open findings one at a time with the user; a standing implementer builds each decision on a review branch. User-invoked. |
